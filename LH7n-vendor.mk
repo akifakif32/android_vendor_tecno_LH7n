@@ -196,7 +196,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
     vendor/tecno/LH7n/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
-    vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
@@ -244,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/tecno/LH7n/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -707,7 +705,6 @@ PRODUCT_PACKAGES += \
     libFy-3A-Param \
     libJpgEncPipe \
     libMcClient \
-    libMegviiHum \
     libMtkSpeechEnh \
     libOpenCL \
     libSQLiteModule_VER_ALL \
@@ -756,7 +753,6 @@ PRODUCT_PACKAGES += \
     libcam.seninfn3d \
     libcam3_tranelapsedtime \
     libcam3_tranpriorityctrl \
-    libcam3_transerverengine \
     libcam_STcallbackHelper_utils \
     libcamalgo.3dnr \
     libcamalgo.WarpMapResizer \
@@ -821,7 +817,6 @@ PRODUCT_PACKAGES += \
     libkmsetkey \
     libksensor \
     liblibarm_mali_config_sysprops \
-    libmegface \
     libminiui \
     libmipc \
     libmmagent \
@@ -1097,7 +1092,6 @@ PRODUCT_PACKAGES += \
     libTranHumanLight \
     libTranITDFaceBeauty \
     libTranMagicSky \
-    libTranMegHumanEffect \
     libTranPlatHW \
     libTranSTPRRepair \
     libTranSTSingleBlur \
@@ -1326,7 +1320,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.composer_ext@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.0 \
     vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mmagent@1.1 \
     vendor.mediatek.hardware.mms@1.0 \
@@ -1336,9 +1329,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
     vendor.mediatek.hardware.neuropilot.agent@1.2 \
@@ -1363,7 +1353,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.transsion.hardware.tne.tneengine@1.0 \
-    vendor.transsion.hardware.trancam.trancamserver@1.0 \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
@@ -1418,7 +1407,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.apuware.xrp@1.0 \
     vendor.mediatek.hardware.apuware.xrp@2.0 \
-    android.hardware.biometrics.fingerprint@2.1-service.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustonic.xml \
     android.hardware.security.secureclock-service.trustonic.xml \
@@ -1431,13 +1419,11 @@ PRODUCT_PACKAGES += \
     manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
     manifest_hwcomposer.xml \
-    vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
     ccci_mdinit \
     ccci_rpcd \
     fuelgauged \
     fuelgauged_nvram \
     gsm0710muxd \
-    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
@@ -1453,7 +1439,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.tne@1.0-service \
-    vendor.transsion.hardware.trancam.trancamserver@1.0-service \
     vendor.trustonic.tee@1.1-service \
     vtservice_hidl \
     kmsetkey_ca.trustonic \
@@ -1685,7 +1670,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libTranHumanLight_so \
     vendor_lib64_libTranITDFaceBeauty_so \
     vendor_lib64_libTranMagicSky_so \
-    vendor_lib64_libTranMegHumanEffect_so \
     vendor_lib64_libTranPlatHW_so \
     vendor_lib64_libTranSTPRRepair_so \
     vendor_lib64_libTranSTSingleBlur_so \
